@@ -59,7 +59,7 @@ class Chef
             puts item['data']
           end
         when 'remove'
-          delete_object(ChefVault::Item, "#{vault}/#{item}", "chef_vault_item") do
+          delete_object(ChefVault::Item, "#{DATA_BAG}/#{item_id}", "chef_vault_item") do
             ChefVault::Item.load(DATA_BAG, item_id).destroy
           end
         when 'checkpresent'
