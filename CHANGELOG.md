@@ -1,5 +1,10 @@
 # Changes
 
+## 0.0.2
+ * Fix checkpresent hook
+ * Fix item ids
+ * Actually rotate keys
+
 ## 0.0.1
 
  * Initial release
