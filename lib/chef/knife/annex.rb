@@ -79,6 +79,7 @@ class Chef
           if config[:rotate_keys]
             item_ids.each do |item_id|
               item = ChefVault::Item.load(DATA_BAG, item_id)
+              item.admins(item.admins.join(','), :delete)
               item.admins(admins)
               item.rotate_keys!
             end

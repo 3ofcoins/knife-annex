@@ -1,5 +1,9 @@
 # Changes
 
+## 0.0.4
+ * Fix key rotation when admin is removed
+ * Bump chef-vault requirement to ~> 2.2.1
+
 ## 0.0.3
  * Fix remove
 
