@@ -7,7 +7,4 @@ gemspec
 group :developer_workstation do
   gem 'awesome_print'
   gem 'pry'
-  gem 'pry-debugger'
-  gem 'pry-rescue'
-  gem 'pry-stack_explorer'
 end
